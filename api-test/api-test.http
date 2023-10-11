@@ -1,0 +1,18 @@
+GET http://localhost:8080/users
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "John",
+    "email": "john@gmail.com"
+}
+
+###
+POST http://localhost:8080/users/b271eb7c2c4c46f4879f7083641dea1f
+Content-Type: application/json
+
+{
+    "name": "DoutorWaka"
+}
